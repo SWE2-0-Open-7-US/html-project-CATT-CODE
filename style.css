@@ -56,6 +56,10 @@ footer {
 	text-align: end;
 }
 
+li {
+	list-style-type: none;
+}
+
 a.active {
 	color: rgb(209, 175, 248);
 }
@@ -68,7 +72,8 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	width: 100vw;
+	width: 75vw;
+	margin-top: 75px;
 }
 
 .column {
@@ -81,4 +86,35 @@ h1 {
 	width: 35%;
 	border: 5px solid #333;
 	padding: 10px;
+	box-shadow: 0px 0px 5px #333;
 }
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 50vw;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 5px solid #333;
+	margin-top: 75px;
+
+}
+
+.left-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 5px solid #333;
+	width: 33%
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 67%;
+}
+
